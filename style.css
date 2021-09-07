@@ -1,0 +1,711 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: 'Be Vietnam', sans-serif;
+}
+.header-div {
+    width: 75%;
+    margin: auto;
+    padding: 45px 0px;
+    display: flex;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.nav-list {
+    display: inline;
+    padding: 10px;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+.nav-link:hover {
+    color: hsl(227, 12%, 61%);
+}
+.div1 {
+    width: 34%;
+    float: right;
+}
+.get-started {
+    padding: 20px 50px;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 50px;
+    border: 0px;
+    color: white;
+    float: right;
+}
+.get-started:hover {
+    background-color: hsl(12, 93%, 72%);
+    cursor: pointer;
+}
+header {
+    position: relative;
+}
+.pattern {
+    position: absolute;
+    right: -61px;
+    top: -214px;
+    width: 50%;
+    z-index: -5;
+}
+.section1 {
+    width: 75%;
+    margin: auto;
+}
+.sect1-div {
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox {
+    display: none;
+}
+span {
+    display: block;
+}
+.build-heading {
+    font-size: 70px;
+    line-height: 1.1;
+}
+.build-para {
+    font-size: 21px;
+    color: hsl(227, 12%, 61%);
+    margin: 0px;
+}
+.see-para {
+    font-size: 21px;
+    color: hsl(227, 12%, 61%);
+    margin: 0px;
+}
+.gen-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.div2 {
+    width: 100%;
+    text-align: center;
+}
+.get-started1 {
+    padding: 20px 50px;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 50px;
+    border: 0px;
+    color: white;
+    margin: 20px 0px;
+}
+.get-started1:hover {
+    background-color: hsl(12, 93%, 72%);
+    cursor: pointer;
+}
+.build-div, .illustration-div {
+    width: 48%;
+}
+.ill-img {
+    width: 100%;
+}
+.section2 {
+    width: 75%;
+    margin: auto;
+}
+.sect2-div {
+    display: flex;
+    justify-content: space-between;
+}
+.man-div {
+    width: 40%;
+}
+.man-div2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.track {
+    width: 15%;
+}
+.gen {
+    display: block;
+    width: 50%;
+}
+.track1 {
+    width: 79%;
+}
+.numbers {
+    text-align: center;
+    padding: 20px 30px;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 50px;
+    color: white;
+}
+.diff-heading {
+    font-size: 42px;
+}
+.diff-para {
+    font-size: 32px;
+}
+.wide {
+    padding: 20px 0px;
+}
+.said {
+    text-align: center;
+    font-size: 49px;
+    margin-top: 120px;
+    padding: 30px;
+}
+.section3 {
+    position: relative;
+}
+.pattern-1 {
+    position: absolute;
+    left: -576px;
+    top: -333px;
+}
+.sect3, .sect3i, .sect3ii {
+    width: 30%;
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 5px;
+    padding: 55px 30px 30px 30px;
+    position: relative;
+}
+.sect3-div {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.avat-para {
+    font-size: 20px;
+}
+.avat-heading {
+    font-size: 24px;
+}
+.get-started3 {
+    padding: 20px 50px;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 50px;
+    border: 0px;
+    color: white;
+    margin: 20px 0px;
+}
+.get-started3:hover {
+    background-color: hsl(12, 93%, 72%);
+    cursor: pointer;
+}
+.starte1 {
+    text-align: center;
+    padding: 40px;
+}
+.anisha, .ali, .richard {
+    position: absolute;
+    left: 226px;
+    top: -47px;
+    width: 100px;
+}
+.section4 {
+    background-color: hsl(12, 88%, 59%);
+    position: relative;
+}
+.pattern-2 {
+    position: absolute;
+}
+.sect4-div {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.simplify {
+    padding: 50px 0px;
+    font-size: 40px;
+    color: white;
+}
+.simp-div {
+    width: 30%;
+}
+.simp-get {
+    width: 20%;
+}
+.get-started4 {
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 50px;
+    border: 0px;
+    color: hsl(12, 88%, 59%);
+    margin: 20px 0px;
+}
+.get-started4:hover {
+    background-color: white;
+    color: hsl(12, 93%, 72%);
+    cursor: pointer;
+}
+footer {
+    background-color: hsl(233, 12%, 13%);
+}
+.footer-div {
+    width: 75%;
+    margin: auto;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.foot {
+    width: 23%;
+}
+.avat-para {
+    color: hsl(227, 12%, 61%);
+}
+.foot-link {
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+}
+.icon {
+    margin-top: 85px;
+}
+.icon-1 {
+    padding-right: 20px;
+}
+.copyright {
+    text-align: right;
+    margin-top: 85px;
+    color: hsl(227, 12%, 61%);
+}
+.update1 {
+    float: right;
+}
+.foot1 {
+    width: 27%;
+    text-align: right;
+}
+.update {
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 0px;
+    outline: 0;
+    margin-right: 20px;
+}
+.go {
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+}
+.go:hover {
+    background-color: hsl(12, 93%, 72%);
+    color: white;
+    cursor: pointer;
+}
+.hamburger {
+    display: none;
+}
+.div-foot {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1300px) {
+    .div2 {
+        width: 74%;
+    }
+    .div1 {
+        width: 28%;
+    }
+}
+@media (max-width: 1200px) {
+    .div2 {
+        width: 74%;
+    }
+    .div1 {
+        width: 25%;
+    }
+}
+@media (max-width: 1000px) {
+    .div2 {
+        width: 100%;
+        display: block;
+        position: absolute;
+        background-color: white;
+        top: -80px;
+    }
+    .gen-nav {
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 150px;
+        right: -150%;
+        transition: .4s;
+    }
+    .div1 {
+        width: 80%;
+    }
+    .checkbox {
+        position: absolute;
+        right: -4px;
+        width: 7%;
+        height: 71px;
+        opacity: 0;
+        display: block;
+        cursor: pointer;
+    }
+    .checkbox:checked ~ .gen-nav {
+        right: 0px;
+        transition: .4s;
+    }
+    .pattern {
+        width: 64%;
+        right: -158px;
+    }
+    .get-started {
+        display: none;
+    }
+    .header-div {
+        justify-content: space-between;
+        position: relative;
+    }
+    .hamburger {
+        width: 2000%;
+        display: block;
+    }
+    .hamb {
+        float: right;
+    }
+    .sect1-div {
+        flex-direction: column-reverse;
+    }
+    .illustration-div {
+        width: 100%;
+    }
+    .build-div {
+        width: 100%;
+        text-align: center;
+    }
+    .diff-heading {
+        text-align: center;
+        padding-top: 90px;
+        font-size: 49px;
+    }
+    .track {
+        width: 25%;
+        position: absolute;
+        left: -51px;
+    }
+    .gen {
+        width: 100%;
+    }
+    .man-div {
+        width: 100%;
+    }
+    .man-div2 {
+        position: relative;
+        width: 110%;
+    }
+    .wide {
+        font-size: 19px;
+        position: relative;
+        left: 15px;
+        top: 5px;
+        background: antiquewhite;
+        text-align: center;
+        padding: 18px 0px;
+        z-index: -5;
+    }
+    .track1 {
+        width: 100%;
+    }
+    .see-para {
+        text-align: left;
+        font-size: 23px;
+        line-height: 2;
+        position: relative;
+        left: -40px;
+        width: 102%;
+        display: inline;
+    }
+    .pattern-1 {
+        position: absolute;
+        left: 714px;
+        top: -1378px;
+        width: 80%;
+        z-index: -11;
+    }
+    span {
+        display: inline;
+    }
+    .sect3-div {
+        flex-direction: column;
+    }
+    .sect3, .sect3ii {
+        display: none;
+    }
+    .sect3i {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .ali {
+        left: 418px;
+    }
+    .avat-para {
+        line-height: 2;
+        font-size: 23px;
+    }
+    .sect4-div {
+        flex-direction: column;
+    }
+    .simp-div, .simp-get {
+        width: 90%;
+        text-align: center;
+    }
+    .simplify {
+        line-height: 1.6;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .get-started4 {
+        margin-bottom: 130px;
+    }
+    .footer-div {
+        flex-direction: column-reverse;
+        width: 93%;
+        position: relative;
+    }
+    .foot1 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .update {
+        padding: 20px 50px;
+    }
+    .copyright {
+        position: absolute;
+        top: 434px;
+        margin-top: 10px;
+        left: 312px;
+    }
+    .div-foot {
+        display: flex;
+        width: 37%;
+        margin: auto;
+        padding: 45px 0px;
+    }
+    .foote {
+        width: 190%;
+        line-height: 1.5;
+    }
+    .foot {
+        width: 100%;
+        line-height: 1.5;
+    }
+    .icon {
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+        top: -51px;
+        width: 100%;
+    }
+    .icon-1 {
+        margin-right: 20px;
+        width: 7%;
+    }
+    .foot-logo {
+        position: absolute;
+        top: 425px;
+        left: 280px;
+        margin-top: 35px;
+        width: 35%;
+    }
+    .said {
+        text-align: center;
+        font-size: 49px;
+        margin: 50px 0px;
+        padding: 30px;
+    }
+    .sect2-div {
+        flex-direction: column;
+    }
+    .build-para {
+        font-size: 25px;
+        color: hsl(227, 12%, 61%);
+        margin: 0px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .nav-list {
+        display: block;
+    }
+}
+@media (max-width: 600px) {
+    .pattern {
+        width: 137%;
+        right: -236px;
+        top: -147px;
+    }
+    .illustration-div {
+        width: 100%;
+    }
+    .section1 {
+        width: 95%;
+    }
+    .build-div {
+        width: 100%;
+        text-align: center;
+    }
+    .build-heading {
+        font-size: 50px;
+        text-align: center;
+        line-height: 1.28;
+    }
+    .build-para {
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .sect2-div {
+        flex-direction: column;
+    }
+    .man-div {
+        width: 100%;
+        position: relative;
+    }
+    .diff-heading {
+        text-align: center;
+        padding-top: 25px;
+    }
+    .track {
+        width: 25%;
+        position: absolute;
+        left: -51px;
+    }
+    .gen {
+        width: 100%;
+    }
+    .man-div2 {
+        position: relative;
+        width: 110%;
+    }
+    .wide {
+        font-size: 19px;
+        position: relative;
+        left: 15px;
+        top: 5px;
+        background: antiquewhite;
+        text-align: center;
+        padding: 18px 0px;
+        z-index: -5;
+    }
+    .track1 {
+        width: 100%;
+    }
+    .see-para {
+        text-align: left;
+        font-size: 16px;
+        line-height: 2;
+        position: relative;
+        left: -40px;
+        width: 102%;
+    }
+    .pattern-1 {
+        position: absolute;
+        left: 312px;
+        top: -1521px;
+        width: 100%;
+        z-index: -5;
+    }
+    .sect3-div {
+        flex-direction: column;
+    }
+    .sect3, .sect3ii {
+        display: none;
+    }
+    .sect3i {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .ali {
+        left: 182px;
+    }
+    .avat-para {
+        line-height: 2;
+    }
+    .sect4-div {
+        flex-direction: column;
+    }
+    .simp-div, .simp-get {
+        width: 90%;
+        text-align: center;
+    }
+    .simplify {
+        line-height: 1.6;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .get-started4 {
+        margin-bottom: 130px;
+    }
+    .footer-div {
+        flex-direction: column-reverse;
+        width: 93%;
+        position: relative;
+    }
+    .foot1 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .update {
+        padding: 20px 50px;
+    }
+    .copyright {
+        position: absolute;
+        top: 400px;
+        margin-top: 10px;
+        left: 85px;
+    }
+    .div-foot {
+        display: flex;
+        width: 65%;
+        margin: auto;
+        padding: 45px 0px;
+    }
+    .foot {
+        width: 100%;
+        line-height: 1.5;
+    }
+    .icon {
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+        top: -51px;
+        width: 100%;
+    }
+    .icon-1 {
+        margin-right: 20px;
+        width: 12%;
+    }
+    .foot-logo {
+        position: absolute;
+        top: 400px;
+        left: 85px;
+        margin-top: 35px;
+        width: 60%;
+    }
+    .said {
+        text-align: center;
+        font-size: 49px;
+        margin: 50px 0px;
+        padding: 30px;
+    }
+    span {
+        display: inline;
+    }
+}
